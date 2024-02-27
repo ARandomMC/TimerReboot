@@ -1,0 +1,9 @@
+name: TimerReboot
+version: '${project.version}'
+main: org.qwertygaming.timerreboot.TimerReboot
+api-version: '1.20'
+commands:
+  trestart:
+    description: Restart the server with a countdown
+    usage: /trestart <seconds>
+    permission: timerreboot.restart
